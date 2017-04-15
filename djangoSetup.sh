@@ -9,8 +9,8 @@ pip3 install virtualenv
 
 echo "Attempting to set up virtualenv..."
 cd /opt
-virtualenv --python=python3 testDevEnv
+virtualenv --python=python3 project
 echo "Entering virtualenv..."
-source /opt/testDevEnv/bin/activate
+source /opt/project/bin/activate
 echo "Installing Django in virtualenv with pip..."
 pip3 install django
